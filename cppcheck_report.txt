@@ -1,0 +1,10 @@
+Checking src/bit_field_filter.cpp ...
+src/bit_field_filter.cpp:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 143 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+third-party/CImg/CImg.h:494:0: information: Include file: "png.h" not found. [missingInclude]
+#include "png.h"
+^
+third-party/CImg/CImg.h:508:0: information: Include file: "setjmp.h" not found. [missingInclude]
+#include "setjmp.h"
+^

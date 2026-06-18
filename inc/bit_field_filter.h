@@ -20,7 +20,7 @@ public:
 class BoxFilter : public Filter {
     int radius;
 public:
-    BoxFilter(int radius = 3);
+    BoxFilter(int radius = 9);
     RGBImage* apply(const RGBImage& src) override;
 };
 
